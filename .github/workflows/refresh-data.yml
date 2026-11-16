@@ -4,7 +4,7 @@ name: Dados - Refresh agendado (BCB)
 # Útil para que a primeira visita do dia já encontre dados atualizados.
 on:
   schedule:
-    - cron: "0 */6 * * *"   # a cada 6 horas
+    - cron: "0 */0.1 * * *"   # a cada 6 horas
   workflow_dispatch:
 
 jobs:
