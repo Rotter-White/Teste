@@ -2,6 +2,11 @@
 Módulo compartilhado: conexão com o Postgres da Aiven e leitura da API
 de dados abertos do Banco Central (SGS). Usado por app.py — concentra a lógica
 de acesso a dados num único módulo.
+
+
+
+
+
 """
 
 import os
